@@ -92,6 +92,18 @@
 }
 
 
+.fpackage{
+    font-weight: 600;
+    background-color:  rgba(6, 147, 227, 1);
+    color: white;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 0.5em;
+    font-family: 'DM Sans';
+    margin-top: 10px;
+    width:80%;
+}
+
 /* Responsive Design */
 
 @media (max-width: 768px) {

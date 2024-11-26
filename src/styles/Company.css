@@ -4,6 +4,7 @@
     background: #fff;
     padding: 50px 20px;
     font-family: var(--primary-font);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(105, 101, 213, 0.8) 85%, rgba(3, 19, 251, 0.5) 100%);
 }
 
 .company-content {
@@ -45,6 +46,18 @@
     cursor: pointer;
 }
 
+.npackage{
+    font-weight: 600;
+    background-color:  rgba(6, 147, 227, 1);
+    width:20%;
+    color: white;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 0.5em;
+    font-family: 'DM Sans';
+    margin-top: 10px;
+}
+
 .cta-button:hover {
     background-color: #d62839;
 }
@@ -61,4 +74,11 @@
     background: #e9ebf7;
     /* Light purple color */
     clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+
+@media (max-width: 797px) {
+  .npackage{
+    width:45%;
+  }
 }

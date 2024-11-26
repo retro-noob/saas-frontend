@@ -57,7 +57,7 @@
 }
 
 .nav-btn {
-    background-color: black;
+    background-color:  rgba(6, 147, 227, 1);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -69,6 +69,38 @@
     background-color: gray;
 }
 
+/* .hcards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(173, 216, 230, 0.8) 85%, rgba(0, 123, 255, 0.5) 100%);
+  } */
+
+
+
+  .hcard {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    width:90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+   .hcard-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .hcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
 @media (max-width: 768px) {
     .hero-slide {
         flex-direction: column;
@@ -76,6 +108,11 @@
     }
     .hero-image img {
         max-width: 100%;
+   
+    }
+
+    .hero-image  {
+
         margin-bottom: 1rem;
     }
     .hero-text {
